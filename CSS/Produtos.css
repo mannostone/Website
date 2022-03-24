@@ -21,15 +21,20 @@ li a{
 li a:hover{background-color: lightslategray;}
 .active{background-color: rgb(218, 92, 92);}
 /* Fim do Menu */
-
-ul {
-    list-style-type: none;
-} 
+/* Estilo geral das divs principais */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
 #trufas, #barras, #pirulitos, #bolosDePote, #objetosRecheados, 
 #docinho, #caixasDiversas, #comboProdutos, #diversos {
     background-color:gray;
+    box-sizing: border-box;
+    margin: 1%;
+    width: fit-content;
 }
-
-#objetosRecheados {
-    background-color: aqua;
+/*"subdivs"*/
+#trufasUnitario, #trufasPromocoes, #trufasCentos {
 }
