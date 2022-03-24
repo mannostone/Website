@@ -29,7 +29,7 @@ table, th, td{
     text-align: left;
 }
 #trufas, #barras, #pirulitos, #bolosDePote, #objetosRecheados, 
-#docinho, #caixasDiversas, #comboProdutos, #diversos {
+#docinho, #comboProdutos, #diversos, #caixasDiversas {
     background-color:gray;
     box-sizing: border-box;
     margin: 1%;

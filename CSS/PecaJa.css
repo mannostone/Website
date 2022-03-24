@@ -1,20 +1,21 @@
 /* Menu & fundo */
-body {margin:0; background-color:lightyellow}
-ul{
+body {margin: 0px; background-color:lightyellow}
+#menu{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 6%;
-    background-color:#222;
-    position: fixed;
-    overflow: auto;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#222222;
+    overflow: hidden;
+}
+li{
+    float: left;
+    border-right: 2px solid lightyellow;
 }
 li a{
     display: block;
     color:  white;
     padding: 14px;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
 }
 li a:hover{background-color: lightslategray;}
