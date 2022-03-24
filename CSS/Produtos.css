@@ -1,0 +1,35 @@
+/* Menu & fundo */
+body {margin: 0px; background-color:lightyellow}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#222222;
+    overflow: hidden;
+}
+li{
+    float: left;
+    border-right: 2px solid lightyellow;
+}
+li a{
+    display: block;
+    color:  white;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{background-color: lightslategray;}
+.active{background-color: rgb(218, 92, 92);}
+/* Fim do Menu */
+
+ul {
+    list-style-type: none;
+} 
+#trufas, #barras, #pirulitos, #bolosDePote, #objetosRecheados, 
+#docinho, #caixasDiversas, #comboProdutos, #diversos {
+    background-color:gray;
+}
+
+#objetosRecheados {
+    background-color: aqua;
+}

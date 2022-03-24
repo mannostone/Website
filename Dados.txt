@@ -1,0 +1,88 @@
+#Trufas
+P - R$1,00
+M - R$2,00
+G - R$3,00
+
+#TrufasPromoções
+5P - R$4,00
+5M - R$8,00
+5G - R$12,00
+
+#TrufasCentos
+P - R$65,00
+M - R$75,00
+G - R$85,00
+
+#Barras
+P - R$2,50
+M - R$3,50
+
+#Pirulitos de Chocolate
+P - R$1,00
+M - R$2,00
+Recheado - R$3,00
+
+#PirulitosCentos
+P - R$60,00
+M - R$70,00
+Recheados - R$85,00
+
+#Pirulitos de chocolate Promoções
+3P - R$2,50
+3M - R$5,00
+3Recheados - R$7,50
+
+#Bolos de pote
+Tradicionais - R$5,00
+Nutella, Cenoura com Chocolate, Kit Kat, Paçoca, Red Velvet, Sabores Personalizados - R$6,50
+
+#Bolos de Pote Promoções
+3 Tradicionais - R$13,00
+3 Especiais/customizados - R$16,00
+
+#Objetos Recheados
+Controles - R$7,00
+Meio coração estilo ovo de colher - R$13,00
+Coração recheado - R$20
+
+#Objetos Recheados Promoções
+2 Controles - R$12,00
+2 Corações estilo ovo de pote - R$20,00
+2 Corações recheados - R$35,00
+
+#Docinhos de Festa
+10 - R$6,00
+100 - R$40
+
+#Combos
+P = 20 trufas + 20 pirulitos + 30 docinhos - R$35,00
+M = 20 trufas + 20 pirulitos + 30 docinhos - R$40,00
+G = 20 trufas + 20 pirulitos + 30 docinhos - R$45,00
+ComboTrufas = 20 trufas p + 20 trufas m + 20 trufas g - R$38,00
+
+#CaixasDePresente
+Caixa de Trufas Pequena - R$5,50
+Caixa de Trufas Media - R$10,00
+Caixa de Trufas Grande - R$16,00
+
+Caixa Mista
+P = 4 trufas + 4 docinhos + 2 pirulitos - R$8,00
+M = 4 trufas + 4 docinhos + 2 pirulitos - R$13,00
+G = 4 trufas + 4 docinhos + 2 pirulitos - R$18,00
+
+#Caixa para dois
+Coração tipo ovo de colher + caixinha de trufas P + 2 bolos de pote + 2 barras P + 10 docinho - R$45,00
+Coração tipo ovo de colher + caixinha de trufas M + 2 bolos de pote + 2 barras M + 10 docinho - R$55,00
+Coração tipo ovo de colher + caixinha de trufas G + 2 bolos de pote + 2 barras G + 20 docinho - R$65,00
+
+#Adicionais
+Bolo comum com cobertura - R$15,00
+Foto polaroid 10x15 (5 fotos) - R$7,00
+2 Taças{
+    plastico - R$5,00
+    vidro - R$12,00
+}
+Porta retrato - R$12,00
+Bebidas - a partir de R$6,00{
+    Vinho, energético, espumante, refrigerante, suco, chá gelado
+}

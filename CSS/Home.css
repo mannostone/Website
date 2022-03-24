@@ -1,0 +1,45 @@
+/* Menu & fundo */
+body {margin:0; background-color:lightyellow}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 6%;
+    background-color:#222;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+}
+li a{
+    display: block;
+    color:  white;
+    padding: 14px;
+    text-align: left;
+    text-decoration: none;
+}
+li a:hover{background-color: lightslategray;}
+.active{background-color: rgb(218, 92, 92);}
+/* Fim do Menu */
+#apresentacaoHome {
+    text-align: center;
+    color: black
+}
+.clearfix::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+#produtos {
+    width: 20%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15%;
+    border-style: none;
+    margin-left: 1.93%;
+    margin-right: 1%;
+}
+#produtos:hover {background-color: #ffb6c1;}
+#comentarios {
+    text-align: center;
+}
