@@ -3,309 +3,314 @@
 <head>
     <meta charset = "UTF-8">
     <title> Veja nossos sabores! </title>
-    <link rel = "stylesheet" href = "\CSS\Produtos.css">
+    <link rel = "stylesheet" href = "..\CSS\Produtos.css">
     <!-- Pacote de ícones do google -->
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <!-- Menu -->
-    <ul id = "menu">
-        <li><a href = "Home.html"> Home  </a></li>
-        <li><a href = "Produtos.html" class = "active"> Produtos </a></li>
-        <li><a href = "PecaJa.html"> Peça já! </a></li>
-    </ul>
-        <!-- Fim do menu -->
-    <!-- <button style = "color: white; background: none; border: none;">
-        <i class = "material-icons"
-        title = "Menu"
-        id = "botaoMenu"> view_headline </i>
-    </button>
-    <button style = "color: yellow; background: none; border: none;">
-        <i class = "material-icons"
-        title = "Modo Escuro/Claro"
-        id = "botaoMenu"> lightbulb </i>
-    </button> -->
-    <h3>Trufas</h3>
-    <div id = "trufas">
-        <table id = "trufasUnitario" style = "float:left">
-            <tr>
-                <th>Pequena</th>
-                <td>R$ 1,00</td>
-            </tr>
-            <tr>
-                <th>Media</th>
-                <td>R$ 2,00</td>
-            </tr>
-            <tr>
-                <th>Grande</th>
-                <td>R$ 3,00</td>
-            </tr>
-        </table>
-
-        <table id = "trufasPromocoes" style = "float:left">
-            <tr>
-                <th>5 unidades P</th>
-                <td>R$ 4,00</td>
-            </tr>
-            <tr>
-                <th>5 unidades M</th>
-                <td>R$ 8,00</td>
-            </tr>
-            <tr>   
-                <th>5 unidades G</th>
-                <td>R$ 12,00</td>
-            </tr>
-        </table>
+        <ul id = "menu">
+            <li><a href = "Home.html"> Home  </a></li>
+            <li><a href = "Produtos.html" class = "active"> Produtos </a></li>
+            <li><a href = "PecaJa.html"> Peça já! </a></li>
         
-        <table id = "trufasCentos">
-            <tr>
-                <th>100 unidades P</th>
-                <td>R$ 65,00</td>
-            </tr>
-            <tr>
-                <th>100 unidades M</th>
-                <td>R$ 75,00</td>
-            </tr>
-            <tr>
-                <th>100 unidades G</th>
-                <td>R$ 85,00</td>
-            </tr>
-        </table>
-    </div>
+        <button id = "switchMode" style = "float:right">
+            <i class = "material-icons"
+            title = "Modo Escuro/Claro"
+            id = "botaoMenu"> lightbulb </i>
+        </button>
+        </ul>
+            <!-- Fim do menu -->
+         
 
-    <h3>Barras</h3>
-    <div id = "barras">
-        <table id = "barrasUnitario">
-            <tr>
-                <th>Pequena</th>
-                <td>R$ 2,50</td>
-            </tr>
-            <tr>
-                <th>Media</th>
-                <td>R$ 3,50</td>
-            </tr>
-        </table>
-    </div>
+    <section id = "blocosDireita">
+        <h3>Trufas</h3>
+        <div id = "trufas">
+            <div id = "imgTrufas">
+                <img src = "..\Imagens\imagemTeste.png" style = "max-width: 100%;">
+            </div>
+            <div id = "trufasGeral">
+                <table>
+                    <tr>
+                        <th colspan = "2">Unidade</th>
+                        <th colspan = "2">Promoções</th>
+                        <th colspan = "2">Centos</th>
+                    </tr>
+    <!-- Pequenos -->
+                    <tr>
+                        <th>Pequena</th>
+                        <td>R$ 1,00</td>
+                        <th rowspan = "3">5 unidades</th>
+                        <td>R$ 4,00</td>
+                        <th rowspan = "3">100 unidades</th>
+                        <td>R$ 65,00</td>
+                        
+                    </tr>
+    <!-- Medios -->
+                    <tr>
+                        <th>Media</th>
+                        <td>R$ 2,00</td>
+                        <td>R$ 8,00</td>
+                        <td>R$ 75,00</td>
+                    </tr>
+    <!-- Grandes -->
+                    <tr>
+                        <th>Grande</th>
+                        <td>R$ 3,00</td>
+                        <td>R$ 12,00</td>
+                        <td>R$ 85,00</td>
+                    </tr>
+                </table>
+            </div>          
+        </div>
 
-    <h3>Pirulitos de chocolate</h3>
-    <div id = "pirulitos">
-        <table id = "pirulitoUnitario" style = "float: left">
-            <tr>
-                <th>Pequeno</th>
-                <td>R$ 1,00</td>
-            </tr>                        
-            <tr>
-                <th>Medio</th>
-                <td>R$ 2,00</td>
-            </tr>                        
-            <tr>
-                <th>Recheado</th>
-                <td>R$ 3,00</td>
-            </tr>
-        </table>
+        <h3>Barras</h3>
+        <div id = "barras">
+            <div id = "imgBarras">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "barrasGeral">
+                <table>
+                    <tr>
+                        <th>Pequena</th>
+                        <td>R$ 2,50</td>                        </tr>
+                    <tr>
+                        <th>Media</th>
+                        <td>R$ 3,50</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-        <table id = "pirulitoPromocoes" style = "float: left">
-            <tr>
-                <th>3 unidades P</th>
-                <td>R$2,50</td>
-            </tr>        
-            <tr>
-                <th>3 unidades M</th>
-                <td>R$5,00</td>
-            </tr>        
-            <tr>
-                <th>3 unidades recheadas</th>
-                <td>R$7,50</td>
-            </tr>            
-        </table>
+        <h3>Pirulitos de chocolate</h3>
+        <div id = "pirulitos">
+            <div id = "imgPirulitos">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "pirulitosGeral">
+                <table>
+                    <tr>
+                        <th colspan = "2">Unidade</th>
+                        <th colspan = "2">Promoções</th>
+                        <th colspan = "2">Centos</th>
+                    </tr>
+                    <tr>
+                        <th>Pequeno</th>
+                        <td>R$ 1,00</td>
+                        <th rowspan = "3">3 unidades</th>
+                        <td>R$2,50</td>
+                        <th rowspan = "3">100 unidades</th>
+                        <td>R$ 60,00</td>
+                        
+                    </tr>                        
+                    <tr>
+                        <th>Medio</th>
+                        <td>R$ 2,00</td>
+                        <td>R$5,00</td>
+                        <td>R$ 70,00</td>
+                    </tr>                        
+                    <tr>
+                        <th>Recheado</th>
+                        <td>R$ 3,00</td>
+                        <td>R$7,50</td>
+                        <td>R$ 85,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-        <table id = "pirulitoCentos">
-            <tr>
-                <th>100 unidades P</th>
-                <td>R$ 60,00</td>
-            </tr>
-            <tr>
-                <th>100 unidades M</th>
-                <td>R$ 70,00</td>
-            </tr>
-            <tr>
-                <th>100 unidades recheadas</th>
-                <td>R$ 85,00</td>
-            </tr>
-        </table>
-    </div>
+        <h3>Bolos de Pote</h3>
+        <div id = "bolosDePote">
+            <div id = "imgBolos">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "bolosDePoteGeral">
+                <table>
+                    <tr>
+                        <th colspan="2">Unidade</th>
+                        <th colspan="2">Promoções</th>
+                    </tr>
+                    <tr>
+                        <th>Tradicional</th>
+                        <td>R$ 5,00</td>
+                        <th rowspan = "2">3 unidades</th>
+                        <td>R$ 13,00</td>
+                    </tr>
+                    <tr>
+                        <th title = "Nutella, Cenoura com Chocolate, Kit Kat, Paçoca, Red Velvet">Especiais / Customizados</th>
+                        <td>R$ 6,50</td>
+                        <td>R$ 16,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
 
-    <h3>Bolos de Pote</h3>
-    <div id = "bolosDePote">
-        <table id = "bolosDePoteUnitario" style = "float: left">
-            <tr>
-                <th>Tradicional</th>
-                <td>R$ 5,00</td>
-            </tr>
-            <tr>
-                <th title = "Nutella, Cenoura com Chocolate, Kit Kat, Paçoca, Red Velvet">Especiais / Customizados</th>
-                <td>R$ 6,50</td>
-            </tr>
-        </table>
+    <section id = "blocosEsquerda">
+        <h3>Objetos recheados</h3>
+        <div id = "objetosRecheados">
+            <div id = "imgObjetosRecheados">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "objetosRecheadosGeral">
+                <table>
+                    <tr>
+                        <th colspan = "2">Unidade</th>
+                        <th colspan = "2">Promoções</th>
+                    </tr>
+                    <tr>
+                        <th>Controle</th>
+                        <td>R$ 7,00</td>
+                        <th rowspan = "3" >2 Controles</th>
+                        <td>R$12,00</td>
+                    </tr>
+                    <tr>
+                        <th>Meio Coração estilo ovo de colher</th>
+                        <td>R$ 13,00</td>
+                        <td>R$20,00</td>
 
-        <table id = bolosDePotePromocoes>
-            <tr>
-                <th>3 Tradicionais</th>
-                <td>R$ 13,00</td>
-            </tr>
-            <tr>
-                <th title = "Nutella, Cenoura com Chocolate, Kit Kat, Paçoca, Red Velvet">3 Especiais/customizados</th>
-                <td>R$ 16,00</td>
-            </tr>
-        </table>
-    </div>
-        
-    <h3>Objetos recheados</h3>
-    <div id = "objetosRecheados">
-        <table id = "objetosRecheadosUnitario" style = "float: left">
-            <tr>
-                <th>Controle</th>
-                <td>R$ 7,00</td>
-            </tr>
-            <tr>
-                <th>Meio Coração estilo ovo de colher</th>
-                <td>R$ 13,00</td>
-            </tr>
-            <tr>
-                <th>Coração recheado</th>
-                <td>R$ 20,00</td>
-            </tr>
-        </table>
+                    </tr>
+                    <tr>
+                        <th>Coração recheado</th>
+                        <td>R$ 20,00</td>
+                        <td>R$35,00</td>
 
-        <table id = "objetosRecheadosPromocoes">
-            <tr>
-                <th>2 Controles</th>
-                <td>R$12,00</td>
-            </tr>
-            <tr>
-                <th>2 Corações estilo ovo de colher</th>
-                <td>R$20,00</td>
-            </tr>
-            <tr>
-                <th>2 Corações recheados</th>
-                <td>R$35,00</td>
-            </tr>
-        </table>
-    </div>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-    <h3>Docinhos de Festa</h3>
-    <div id = "docinho">
-        <table id = "docinhos">
-            <tr>
-                <th>10 unidades</th>
-                <td>R$6,00</td>
-            </tr>
-            <tr>
-                <th>100 unidades</th>
-                <td>R$40,00</td>
-            </tr>
-        </table>
-    </div>
+        <h3>Docinhos de Festa</h3>
+        <div id = "docinho">
+            <div id = "imgDocinhos"></div>
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "docinhosGeral">
+                <table>
+                    <tr>
+                        <th>10 unidades</th>
+                        <td>R$6,00</td>
+                    </tr>
+                    <tr>
+                        <th>100 unidades</th>
+                        <td>R$40,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-    <h3>Combos</h3>
-    <div id = "comboProdutos">
-        <table id = combosDiversos>   
-            <tr>
-                <th>Pequeno: 20 trufas + 20 pirulitos + 30 docinhos</th>
-                <td>R$35,00</td>
-            </tr>
-            <tr>
-                <th>Medio: 20 trufas + 20 pirulitos + 30 docinhos</th>
-                <td>R$40,00</td>
-            </tr>
-            <tr>
-                <th>Grande: 20 trufas + 20 pirulitos + 30 docinhos</th>
-                <td>R$45,00</td>
-            </tr>
-            <tr>
-                <th>20 Trufas P / M / G</th>
-                <td>R$38,00</td>
-            </tr>
-        </table>
-    </div>
+        <h3>Combos</h3>
+        <div id = "comboProdutos">
+            <div id = "imgCombos">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = combosGeral>
+                <table>
+                    <tr>
+                        <th>Pequeno</th>
+                        <th rowspan = "3">20 trufas + 20 pirulitos + 30 docinhos</th>
+                        <td>R$35,00</td>
+                    </tr>
+                    <tr>
+                        <th>Medio</th>
+                        <td>R$40,00</td>
+                    </tr>
+                    <tr>
+                        <th>Grande</th>
+                        <td>R$45,00</td>
+                    </tr>
+                    <tr>
+                        <th>P / M / G</th>
+                        <th>20 Trufas de cada</th>
+                        <td>R$38,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
-    <h3>Diversos</h3>
-    <div id = "diversos">
-        <table id = "produtosDiversos">
-            <tr>
-                <th>Bolo comum com cobertura</th>
-                <td>R$ 15,00</td>
-            </tr>
-            <tr>
-                <th>5 Fotos polaroid 10x15</th>
-                <td>R$ 7,00</td>
-            </tr>
-            <tr>
-                <th>2 Taças de plástico</th>
-                <td>R$ 5,00</td>
-            </tr>
-            <tr>
-                <th>2 Taças de vidro</th>
-                <td>R$ 12,00</td>
-            </tr>
-            <tr>
-                <th>Porta retrato</th>
-                <td>R$ 6,00</td>
-            </tr>
-            <tr>
-                <th title = "Vinho, energético, espumante, refrigerante, suco, chá gelado">Bebidas diversas</th>
-                <td>a partir de R$ 6,00</td>
-            </tr>
-        </table>
-    </div>
+        <h3>Diversos</h3>
+        <div id = "diversos">
+            <div id = "imgDiversos">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "produtosGeral">
+                <table>
+                    <tr>
+                        <th>Bolo comum com cobertura</th>
+                        <td>R$ 15,00</td>
+                    </tr>
+                    <tr>
+                        <th>5 Fotos polaroid 10x15</th>
+                        <td>R$ 7,00</td>
+                    </tr>
+                    <tr>
+                        <th>2 Taças de plástico</th>
+                        <td>R$ 5,00</td>
+                    </tr>
+                    <tr>
+                        <th>2 Taças de vidro</th>
+                        <td>R$ 12,00</td>
+                    </tr>
+                    <tr>
+                        <th>Porta retrato</th>
+                        <td>R$ 6,00</td>
+                    </tr>
+                    <tr>
+                        <th title = "Vinho, energético, espumante, refrigerante, suco, chá gelado">Bebidas diversas</th>
+                        <td>a partir de R$ 6,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
 
-    <h3>Caixas</h3>
-    <div id = "caixasDiversas">
-        <table id = "caixasPresente" style = "float: left; height: 100%">
-            <tr>
-                <th>Caixa de Trufas P</th>
-                <td>R$5,50</td>
-            </tr>
-            <tr>
-                <th>Caixa de Trufas M</th>
-                <td>R$10,00</td>
-            </tr>
-            <tr>
-                <th>Caixa de Trufas G</th>
-                <td>R$16,00</td>
-            </tr>
-        </table>
-
-        <table id = "caixasMistas" style = "float: left" title = "4 trufas + 4 docinhos + 2 pirulitos">
-            <tr>
-                <th>Tamanho P</th>
-                <td>R$8,00</td>
-            </tr>
-            <tr>
-                <th>Tamanho M</th>
-                <td>R$13,00</td>
-            </tr>
-            <tr>
-                <th>Tamanho G</th>
-                <td>R$18,00</td>
-            </tr>
-        </table>
-
-        <table id = "caixaParaDois">
-            <tr>
-                <th>Coração tipo ovo de colher + caixinha de trufas P<br> + 2 bolos de pote + 2 barras P + 10 docinho</th>
-                <td>R$45,00</td>
-            </tr>
-            <tr>
-                <th>Coração tipo ovo de colher + caixinha de trufas M<br> + 2 bolos de pote + 2 barras M + 10 docinho</th>
-                <td>R$55,00</td>
-            </tr>
-            <tr>
-                <th>Coração tipo ovo de colher + caixinha de trufas G<br> + 2 bolos de pote + 2 barras G + 10 docinho</th>
-                <td>R$65,00</td>
-            </tr>
-        </table>
-    </div>
+    <section id = "blocoAbaixo">
+        <h3>Caixas</h3>
+        <div id = "caixasDiversas">
+            <div id = "imgCaixas">
+                <img src = "..\Imagens\imagemTeste.png"
+                style = "max-width: 100%;">
+            </div>
+            <div id = "caixasGeral">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th colspan="2">Combos de Trufas</th>
+                        <th colspan="2">Combos Sortidos</th>
+                        <th colspan="2">Combos para dois</th>
+                    </tr>
+                    <tr>
+                        <th>Pequeno</th>
+                        <th rowspan="3">Caixa de Trufas</th>
+                        <td>R$5,50</td>
+                        <th rowspan="3">4 trufas + 4 docinhos + 2 pirulitos</th>
+                        <td>R$8,00</td>
+                        <th rowspan="3">Coração tipo ovo de colher + caixinha de trufas<br> + 2 bolos de pote + 2 barras + 10 docinho</th>
+                        <td>R$45,00</td>
+                    </tr>
+                    <tr>
+                        <th>Medio</th>
+                        <td>R$10,00</td>
+                        <td>R$13,00</td>
+                        <td>R$55,00</td>
+                    </tr>
+                    <tr>
+                        <th>Grande</th>
+                        <td>R$16,00</td>
+                        <td>R$18,00</td>
+                        <td>R$65,00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>

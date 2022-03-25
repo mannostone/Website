@@ -20,21 +20,80 @@ li a{
 }
 li a:hover{background-color: lightslategray;}
 .active{background-color: rgb(218, 92, 92);}
+#switchMode{
+        color: yellow;
+        background: none; 
+        border: none;
+        padding-top: 10px;
+}
 /* Fim do Menu */
 /* Estilo geral das divs principais */
-table, th, td{
+table {border-collapse: collapse; margin-top:-4px;}
+th, td{
     border: 1px solid black;
-    border-collapse: collapse;
     padding: 5px;
-    text-align: left;
+    text-align: center;
 }
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
 #trufas, #barras, #pirulitos, #bolosDePote, #objetosRecheados, 
 #docinho, #comboProdutos, #diversos, #caixasDiversas {
-    background-color:gray;
-    box-sizing: border-box;
+    background-color:lightyellow;
+    box-sizing: content-box;
     margin: 1%;
     width: fit-content;
+    max-width: 450px;
+} 
+#blocosEsquerda {
+    background-color: aquamarine;
+    margin-top: -2790px;
+    margin-left: 1%;
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
-/*"subdivs"*/
-#trufasUnitario, #trufasPromocoes, #trufasCentos {
+#blocosDireita {
+    background-color: aquamarine;
+    margin-left: 55%;
+    /*float: right;*/
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#blocoAbaixo {
+    margin-right: 25%;
+    margin-left: 35%;
+    width: 50%;
+}
+img {
+    background-color: aquamarine;
+}
+img:hover {
+    animation-name: imgHidden;
+    animation-duration: 2s;
+}
+
+
+div#trufasGeral, div#barrasGeral, div#pirulitosGeral, div#bolosDePoteGeral,
+div#objetosRecheadosGeral, div#docinhosGeral, div#combosGeral, div#produtosGeral,
+div#caixasGeral{
+    background-color: red;
+    width: fit-content;
+    max-width: 450px;
+}
+@keyframes imgHidden {
+    from{
+        display: table;
+        visibility:visible;
+        opacity: 1.0;
+        top: 0px;
+    }
+    to {
+        display:none;
+        visibility:hidden;
+        opacity: 0;
+        top: 100px;
+    }
 }
